@@ -16,3 +16,12 @@ function solution(dot) {
         return 4;
     }
 }
+
+//다른 정답
+
+// const solution = dot => 
+// dot[0] > 0 && dot[1] > 0 ? 1 :
+// dot[0] < 0 && dot[1] > 0 ? 2 :
+// dot[0] < 0 && dot[1] < 0 ? 3 :
+// dot[0] > 0 && dot[1] < 0 ? 4 : 
+// null
