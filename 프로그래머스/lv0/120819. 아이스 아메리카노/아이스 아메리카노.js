@@ -1,5 +1,5 @@
-// 문제해결 (안됨)
-// 무슨 의미인지 모르겟음
+// 문제해결
+// 
 
 function solution(money) {
     let answer = [0,0];
@@ -7,7 +7,6 @@ function solution(money) {
     answer[1] = money - (5500* answer[0])
     return answer;
 }
-
 
 
 // 다른 답
